@@ -26,7 +26,7 @@ a{
 main{
     height: 100vh;
     width: 100vw;
-    background: #3488b1 center bottom url("hmm.gif") no-repeat;
+    background: #3488b1 center bottom url("assets/hmm.gif") no-repeat;
     background-size: 35vh;
 }
 .wrapper{
@@ -49,4 +49,20 @@ main{
     *{
         font-size: 9px;
     }
+}
+.icons{
+    transform: translateY(-5rem);
+}
+.icons div{
+    position: absolute;
+    left:0;
+    right: 0;
+    text-align: center;
+    transition: .4s ease;
+}
+.icons img{
+    width: 4rem;
+}
+.icons div.show{
+    transform: translateY(8rem);
 }
