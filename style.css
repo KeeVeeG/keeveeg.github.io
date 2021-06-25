@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    color: white
+}
+h1{
+    font-size: 5rem;
+    letter-spacing: .45rem;
+    margin-bottom: .5rem;
+}
+p{
+    margin: .3rem 0;
+    font-size: 2rem;
+    letter-spacing: .15rem;
+}
+.desc{
+    text-align: center;
+}
+a{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background: #3488b1 center bottom url("hmm.gif") no-repeat;
+    background-size: 35vh;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper div{
+    transform: translateY(-7vh);
+}
+@media (max-width:490px) {
+    *{
+        font-size: 12px;
+    }
+}
+@media (max-width:330px) {
+    *{
+        font-size: 9px;
+    }
+}
