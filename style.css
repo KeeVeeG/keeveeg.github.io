@@ -4,7 +4,23 @@
     margin: 0;
     font-family: 'Play', sans-serif;
     font-size: 18px;
-    color: white
+    color: white;
+    cursor: none;
+}
+.cursor{
+    position: absolute;
+    pointer-events: none;
+    display: none;
+    z-index: 1;
+    width: 26px;
+    height: 26px;
+    background: url("assets/cookie.png");
+    border-radius: 24px;
+    transform: translate(-50%,-50%);
+    transition: background .15s, opacity .3s;
+}
+.cursor.click{
+    background: url("assets/cookie_cut.png");
 }
 h1{
     font-size: 5rem;
