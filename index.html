@@ -1,44 +1,57 @@
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <title>Nikita Abaturov</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-  <title>Nikita Abaturov</title>
-</head>
-
-<body>
-  <div class="cursor"></div>
-  <main>
-    <div class="icons">
-      <div id="github">
-        <img src="assets/github.png">
+  <body>
+    <div class="cursor"></div>
+    <main>
+      <div class="icons">
+        <div id="github">
+          <img src="assets/github.png" />
+        </div>
+        <div id="hh">
+          <img src="assets/hh.png" />
+        </div>
+        <div id="telegram">
+          <img src="assets/telegram.png" />
+        </div>
+        <div id="email">
+          <img src="assets/email.png" />
+        </div>
       </div>
-      <div id="hh">
-        <img src="assets/hh.png">
+      <div class="wrapper">
+        <div>
+          <h1>Nikita<br />Abaturov</h1>
+          <p class="desc">🍕 Frontend developer 🍕</p>
+          <p>
+            <a
+              onmouseenter="Show('github')"
+              onmouseleave="Hide('github')"
+              href="https://github.com/KeeVeeG"
+              >GitHub</a
+            >,
+            <a
+              onmouseenter="Show('telegram')"
+              onmouseleave="Hide('telegram')"
+              href="https://t.me/nikeevee"
+              >Telegram</a
+            >,
+            <a
+              onmouseenter="Show('email')"
+              onmouseleave="Hide('email')"
+              href="mailto:abaturov.developer@gmail.com"
+              >E-Mail</a
+            >
+          </p>
+        </div>
       </div>
-      <div id="telegram">
-        <img src="assets/telegram.png">
-      </div>
-      <div id="email">
-        <img src="assets/email.png">
-      </div>
-    </div>
-    <div class="wrapper">
-      <div>
-        <h1>Nikita<br>Abaturov</h1>
-        <p class="desc">🍕 Frontend developer 🍕</p>
-        <p>
-          <a onmouseenter="Show('github')" onmouseleave="Hide('github')" href="https://github.com/KeeVeeG">GitHub</a>,
-          <a onmouseenter="Show('telegram')" onmouseleave="Hide('telegram')" href="https://t.me/nikeevee">Telegram</a>,
-          <a onmouseenter="Show('email')" onmouseleave="Hide('email')" href="mailto:abaturov.developer@gmail.com">E-Mail</a>
-        </p>
-      </div>
-    </div>
-  </main>
-</body>
-<script src="script.js"></script>
-
+    </main>
+  </body>
+  <script src="script.js"></script>
 </html>
