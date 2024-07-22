@@ -1,14 +1,14 @@
-const cursor = document.querySelector('.cursor')
-
-function Show(link) {
+function show(link) {
   document.getElementById(link).classList.add('show')
   cursor.style.opacity = '.8'
 }
 
-function Hide(link) {
+function hide(link) {
   document.getElementById(link).classList.remove('show')
   cursor.style.opacity = '1'
 }
+
+const cursor = document.querySelector('#cursor')
 
 window.addEventListener('mousemove', pos => {
   cursor.style.top = pos.pageY + 'px'

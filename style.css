@@ -9,7 +9,7 @@
   cursor: none;
 }
 
-.cursor {
+#cursor {
   position: absolute;
   pointer-events: none;
   display: none;
@@ -21,7 +21,7 @@
   transform: translate(-50%, -50%);
 }
 
-.cursor.click {
+#cursor.click {
   background-position: 26px 0;
 }
 
@@ -66,13 +66,13 @@ main {
   transform: translateY(-7vh);
 }
 
-@media (max-width: 490px) {
+@media (max-width: 560px) {
   * {
     font-size: 12px;
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 360px) {
   * {
     font-size: 9px;
   }

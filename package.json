@@ -1,0 +1,6 @@
+{
+  "name": "keeveeg.github.io",
+  "scripts": {
+    "format": "prettier --write ./"
+  }
+}
